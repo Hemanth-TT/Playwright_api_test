@@ -1,7 +1,0 @@
-Updated Pet:  {
-  id: 1774864088190,
-  name: 'Golden retriver',
-  photoUrls: [],
-  tags: [],
-  status: 'sold'
-}

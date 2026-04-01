@@ -1,9 +1,0 @@
-created {
-  id: 1774955137609,
-  name: 'Doggie',
-  photoUrls: [],
-  tags: [],
-  status: 'available'
-}
-Deleted Pet: 1774955137609
-{ code: 1, type: 'error', message: 'Pet not found' }

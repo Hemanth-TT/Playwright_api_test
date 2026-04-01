@@ -1,7 +1,0 @@
-{
-  "id": 1774953477164,
-  "name": "Dog Henry",
-  "photoUrls": [],
-  "tags": [],
-  "status": "sold"
-}

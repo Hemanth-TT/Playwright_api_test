@@ -1,7 +1,0 @@
-Created Pet {
-  id: 1774955135009,
-  name: 'golden ret',
-  photoUrls: [],
-  tags: [],
-  status: 'avialable'
-}

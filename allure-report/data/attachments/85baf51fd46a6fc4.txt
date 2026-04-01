@@ -1,4 +1,0 @@
-Failure captured: expect(received).toBe(expected) // Object.is equality
-
-Expected: 205
-Received: 200
