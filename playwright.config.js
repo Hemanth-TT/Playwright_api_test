@@ -22,7 +22,7 @@ export default defineConfig({
 ],
 
   use: {
-    baseURL: 'http://localhost:6060/web/index.php/auth/login' ,
+    baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' ,
       // baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
       //baseURL: 'http://localhost:6060/web/index.php/auth/login',
     browserName: 'chromium',
