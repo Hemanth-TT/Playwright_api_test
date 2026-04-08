@@ -1,21 +1,16 @@
-export const petSchema = {
+import Ajv from "ajv";
+import { petSchema } from "../schemas/petSchema";
 
-    type : "object",
-    properties : {
+const ajv = new Ajv();
+const validate = ajv.compile(petSchema);
 
-        id : {type : "number"},
+export function validateSchema(data) {
+    const valid = validate(data);
 
-        name : {
-            
-            type : "string",
-            minLength : 1    //must not be empty
-        },
-        status: {
-            type: "string",
-            enum:["available", "pending", "sold"] //allowed values
-        }
-    },
+    if (!valid) {
+        console.log("Schema Errors:", validate.errors);
+        return false;
+    }
 
-    required : ["id", "name", "status"],
-    additionalProperties : true  // no extra fields allowed
-};
+    return true;
+}

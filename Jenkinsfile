@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat 'npm install'
             }
-        }
+        }git
 
         stage('Install Playwright Browsers') {
             steps {
